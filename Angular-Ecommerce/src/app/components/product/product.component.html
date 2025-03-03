@@ -1,0 +1,106 @@
+<!-- table for main home -->
+<div class="container">
+    <h2>Product List</h2>
+    
+    <table class="table">
+  
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+  
+      <tbody>
+        <tr *ngFor="let product of products">
+          <td>{{ product.name }}</td>
+          <td>{{ product.price }}</td>
+          <td>
+            <a class="btn btn-danger m-1" (click)="delete(product.id)">delete</a>
+  
+            <a class="btn btn-warning ms-2" (click)="openUpdateModal(product)">Update</a>
+          </td>
+        </tr>
+  
+      </tbody>
+    </table>
+  </div>
+  
+  <!-- Update Product Modal -->
+  <div class="modal popup" tabindex="-1" [class.show]="showUpdateModal" [style.display]="showUpdateModal ? 'block' : 'none'">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Update Product</h5>
+          <button type="button" class="btn-close" (click)="closeUpdateModal()"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="productName" class="form-label">Product Name</label>
+              <input type="text" id="productName" class="form-control" [(ngModel)]="selectedProduct.name" name="name">
+            </div>
+            <div class="mb-3">
+              <label for="productPrice" class="form-label">Product Price</label>
+              <input type="number" id="productPrice" class="form-control" [(ngModel)]="selectedProduct.price" name="price">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" (click)="closeUpdateModal()">Cancel</button>
+          <button class="btn btn-primary" (click)="updateProduct()">Save Changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- pop up for add new product -->
+  
+  <div style="text-align: center;">
+  
+    <a class="btn btn-primary m-1 "  (click)="openPopup()">Add New Product</a>
+  </div>
+  
+  <div *ngIf="showPopup" class="popup">
+    <div class="popup-content">
+      <h3>Add New Product</h3>
+  
+      <label for="name">Product Name:</label>
+      <input id="name" [(ngModel)]="newProduct.name" class="form-control" />
+  
+      <label for="price">Price:</label>
+      <input id="price" [(ngModel)]="newProduct.price" type="number" class="form-control" />
+  
+      <div class="buttons">
+        <button class="btn btn-success" (click)="addProduct()">Save</button>
+        <button class="btn btn-danger ms-5 " (click)="closePopup()">Cancel</button>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  <style>
+    .popup {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .popup-content {
+      background: white;
+      padding: 20px;
+      border-radius: 5px;
+      width: 400px;
+      text-align: center;
+    }
+    .buttons {
+      margin-top: 10px;
+    }
+  </style>
+  
