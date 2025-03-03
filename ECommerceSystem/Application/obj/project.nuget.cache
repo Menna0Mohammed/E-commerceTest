@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FrczHe8YeGA=",
+  "dgSpecHash": "txQrm+NFP6M=",
   "success": true,
-  "projectFilePath": "E:\\E-commerce\\ECommerceSystem\\Application\\Application.csproj",
+  "projectFilePath": "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Compu Market\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Compu Market\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",

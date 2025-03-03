@@ -17,6 +17,7 @@ namespace Infrastructure.DBContext
                 .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../ECommerceSystem"))
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                 .Build();
+            
 
             var connectionString = configuration.GetConnectionString("Product");
             optionsBuilder.UseSqlServer(connectionString);

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\E-commerce\\ECommerceSystem\\Domain\\Domain.csproj",
+      "projectUniqueName": "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "E:\\E-commerce\\ECommerceSystem\\Domain\\Domain.csproj",
+      "projectPath": "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Compu Market\\.nuget\\packages\\",
-      "outputPath": "E:\\E-commerce\\ECommerceSystem\\Domain\\obj\\",
+      "outputPath": "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Compu Market\\AppData\\Roaming\\NuGet\\NuGet.Config",

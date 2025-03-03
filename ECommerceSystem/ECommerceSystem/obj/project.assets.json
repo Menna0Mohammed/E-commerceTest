@@ -3338,11 +3338,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\E-commerce\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.csproj",
+      "projectUniqueName": "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.csproj",
       "projectName": "ECommerceSystem",
-      "projectPath": "E:\\E-commerce\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.csproj",
+      "projectPath": "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\ECommerceSystem\\ECommerceSystem.csproj",
       "packagesPath": "C:\\Users\\Compu Market\\.nuget\\packages\\",
-      "outputPath": "E:\\E-commerce\\ECommerceSystem\\ECommerceSystem\\obj\\",
+      "outputPath": "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\ECommerceSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Compu Market\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3360,11 +3360,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\E-commerce\\ECommerceSystem\\Application\\Application.csproj": {
-              "projectPath": "E:\\E-commerce\\ECommerceSystem\\Application\\Application.csproj"
+            "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\Application\\Application.csproj": {
+              "projectPath": "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\Application\\Application.csproj"
             },
-            "E:\\E-commerce\\ECommerceSystem\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "E:\\E-commerce\\ECommerceSystem\\Infrastructure\\Infrastructure.csproj"
+            "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

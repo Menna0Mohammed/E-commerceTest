@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\E-commerce\\ECommerceSystem\\Application\\Application.csproj": {}
+    "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\Application\\Application.csproj": {}
   },
   "projects": {
-    "E:\\E-commerce\\ECommerceSystem\\Application\\Application.csproj": {
+    "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\E-commerce\\ECommerceSystem\\Application\\Application.csproj",
+        "projectUniqueName": "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "E:\\E-commerce\\ECommerceSystem\\Application\\Application.csproj",
+        "projectPath": "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Compu Market\\.nuget\\packages\\",
-        "outputPath": "E:\\E-commerce\\ECommerceSystem\\Application\\obj\\",
+        "outputPath": "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Compu Market\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\E-commerce\\ECommerceSystem\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\E-commerce\\ECommerceSystem\\Domain\\Domain.csproj"
+              "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\Domain\\Domain.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "E:\\E-commerce\\ECommerceSystem\\Domain\\Domain.csproj": {
+    "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\E-commerce\\ECommerceSystem\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\E-commerce\\ECommerceSystem\\Domain\\Domain.csproj",
+        "projectPath": "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Compu Market\\.nuget\\packages\\",
-        "outputPath": "E:\\E-commerce\\ECommerceSystem\\Domain\\obj\\",
+        "outputPath": "E:\\E-commerce\\E-commerceTest\\ECommerceSystem\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Compu Market\\AppData\\Roaming\\NuGet\\NuGet.Config",

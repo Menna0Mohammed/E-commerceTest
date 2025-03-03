@@ -15,6 +15,7 @@ namespace Infrastructure.DBContext
 
         public DbSet<Product> Products { get; set; }
 
+        // make sure to map product table in sql
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Product>().ToTable("Products");
